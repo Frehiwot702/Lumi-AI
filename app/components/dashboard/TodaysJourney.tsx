@@ -1,7 +1,5 @@
 'use client'
-import { CldUploadButton, CldUploadWidget } from 'next-cloudinary'
 import React, { useState } from 'react'
-import CloudinaryUploader from '../CloudinaryUploader'
 import MotivationCard from './MotivationCard'
 
 

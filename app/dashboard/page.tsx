@@ -1,6 +1,5 @@
 import Topbar from '../components/dashboard/Topbar'
-import TodaysJourney from '../components/dashboard/TodaysJourney'
-import AddJourney from '../components/forms/AddJourney'
+import TodaysJourney from '../components/dashboard/TodaysJourney' 
 import MonthSummery from '../components/dashboard/MonthSummery'
 import BottomBar from '../components/BottomBar'
 
@@ -18,8 +17,7 @@ const Dashboard = () => {
        
       <TodaysJourney/> 
       <MonthSummery/>
-      <BottomBar/>
-      {/* <AddJourney/> */}
+      <BottomBar/> 
         
     </div>
   )
